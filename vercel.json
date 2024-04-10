@@ -11,10 +11,6 @@
       {
         "source": "/search/:query",
         "destination": "/search/:query.jsx"
-      },
-      {
-        "source": "/*",
-        "destination": "/404.jsx"
       }
 
     ]
