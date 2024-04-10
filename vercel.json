@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/Home.jsx"
+      },
+      {
+        "source": "/about",
+        "destination": "/About.jsx"
+      },
+      {
+        "source": "/search/:query",
+        "destination": "/search/:query.jsx"
+      },
+      {
+        "source": "/*",
+        "destination": "/404.jsx"
+      }
+
+    ]
+  }
