@@ -14,7 +14,7 @@ function App() {
   return (
     <main>
       <Suspense fallback={<h1>Loading...</h1>}>
-        <Router routes={routes} defaultComponent={Page404}>
+        <Router routes={routes} defaultComponent={HomePage}>
           <Route path="/" Component={HomePage} />
           <Route path="/about" Component={AboutPage} />
         </Router>
